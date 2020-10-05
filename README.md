@@ -22,17 +22,17 @@ The dataset and data dictionary can be downlaoded from (URL:https://drive.google
 
 ## Results
 Ridge Regression Metrics
-  - Train r2 -0.91
-  - Test r2 - 0.89
+- Train r2 -0.91
+- Test r2 - 0.89
   
 Lasso Regression Metrics
-  - Train r2 - 0.91
-  - Test r2 - 0.89
+- Train r2 - 0.91
+- Test r2 - 0.89
   
 Important Factors for the price prediction as per Lasso and ridge are
-  - GrLivArea
-  - OverallQual
-  - Exterior1st_others
+- GrLivArea
+- OverallQual
+- Exterior1st_others
 
 The regularized regression(both Lasso and ridge) has a 2% error in prediction on test data as compared to 3% in OLS method.
 Hence i would use regularizes model as compared to OLS for better accuracy.
